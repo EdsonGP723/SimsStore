@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: IdleUp
+    m_Hash: 486716119
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: -4722089743252994143, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4722089743252994143, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -925867761, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -925867761, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: -683622347, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -683622347, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 181651591, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 181651591, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -1193153339, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1193153339, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: 709629435, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 709629435, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: IdleDown
+    m_Hash: 526694748
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: 1768030877, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1768030877, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -878469, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -878469, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: 1133448591, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1133448591, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 1460508096, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1460508096, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -1188320973, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1188320973, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: 159774584, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 159774584, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: IdleRight
+    m_Hash: 664738502
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: -8388113844034265817, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8388113844034265817, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -2586316057416403959, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2586316057416403959, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: 187867224548913694, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 187867224548913694, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 7630394517700344559, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7630394517700344559, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -9167047443949804585, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9167047443949804585, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: 1374013959465406934, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1374013959465406934, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: IdleLeft
+    m_Hash: 972869135
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: 536902499870637135, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 536902499870637135, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -1375364316066402920, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1375364316066402920, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: 2583655132817948467, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2583655132817948467, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: -1841176561905271091, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1841176561905271091, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -1185682902968429876, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1185682902968429876, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: -4782647757735045780, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4782647757735045780, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: WalkUp
+    m_Hash: 648049478
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: 4395732545537305803, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4395732545537305803, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: 2122058427, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2122058427, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: -154965960, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -154965960, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 872413968, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 872413968, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: 1934512535, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1934512535, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: 408684151, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 408684151, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: WalkDown
+    m_Hash: 459082627
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: -723149767, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -723149767, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: 211641080, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 211641080, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: 686985064, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 686985064, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 323257859, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 323257859, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: 129395571, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 129395571, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: 1711660079, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1711660079, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: WalkRight
+    m_Hash: 829942833
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: 6136267191056305119, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6136267191056305119, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -433923860524415510, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -433923860524415510, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: -8531559498073930117, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8531559498073930117, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: 3857856825048601963, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3857856825048601963, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -6832935457612725300, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6832935457612725300, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: -3874531151743489370, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3874531151743489370, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: WalkLeft
+    m_Hash: 1036352720
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hair
+      m_Hash: 1019596327
+      m_Sprite: {fileID: -4477556240853618604, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4477556240853618604, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_0
+      m_Hash: 1010434783
+      m_Sprite: {fileID: -2231514182635363358, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2231514182635363358, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_1
+      m_Hash: 188559945
+      m_Sprite: {fileID: -4946733014911126670, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4946733014911126670, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_2
+      m_Hash: 305423347
+      m_Sprite: {fileID: -1370088647797435288, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1370088647797435288, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_3
+      m_Hash: 624120677
+      m_Sprite: {fileID: -802261637313848626, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -802261637313848626, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    - m_Name: Hair_4
+      m_Hash: 995608262
+      m_Sprite: {fileID: -1110205016857790409, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1110205016857790409, guid: 8e4983f5cbd325c4c9bccf17a12bb95d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638824459501864278
+  m_Version: 1
