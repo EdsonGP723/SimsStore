@@ -1,16 +1,21 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static Vector2 Movement;
+
+    private InputAction moveAction;
+    private PlayerInput playerInput;
+
+    private void Awake()
     {
-        
+        playerInput = GetComponent<PlayerInput>();
+        moveAction = playerInput.actions["Move"];
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Movement = moveAction.ReadValue<Vector2>();
     }
 }
