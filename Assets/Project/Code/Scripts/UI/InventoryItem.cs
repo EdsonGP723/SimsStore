@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -9,10 +8,12 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public Image image;
 
     [HideInInspector] public Transform parentTransform;
+    private InventorySlot originalSlot;
 
     void Start()
     {
         InitialiseItem(item);
+        originalSlot = GetComponentInParent<InventorySlot>();
     }
 
     public void InitialiseItem(Item newItem)
@@ -24,6 +25,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         image.raycastTarget = false;
         parentTransform = transform.parent;
+        originalSlot = GetComponentInParent<InventorySlot>();
         transform.SetParent(transform.root);
     }
 
@@ -36,5 +38,11 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         image.raycastTarget = true;
         transform.SetParent(parentTransform);
+
+        InventorySlot newSlot = GetComponentInParent<InventorySlot>();
+        if (newSlot != originalSlot && originalSlot != null)
+        {
+            originalSlot.OnItemRemoved();
+        }
     }
 }

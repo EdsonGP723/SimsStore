@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 
 public class InventoryManager : MonoBehaviour
 {
     public InventorySlot[] slots;
     public GameObject invntoryItemPrefab;
+
+    public SpriteLibraryAsset Hair;
+    public SpriteLibraryAsset Outfit;
 
     public void AddItem(Item item)
     {
@@ -25,6 +29,25 @@ public class InventoryManager : MonoBehaviour
         Destroy(item.gameObject);
     }
 
+    public void EquipHair(InventoryItem item)
+    {
+        Hair = item.item.Library;
+    }
+
+    public void UnequipHair()
+    {
+        Hair = null;
+    }
+
+    public void EquipOutfit(InventoryItem item)
+    {
+        Outfit = item.item.Library;
+    }
+
+    public void UnequipOutfit()
+    {
+        Outfit = null;
+    }
     void SpawnNewItem(Item item, InventorySlot slot)
     {
         GameObject newItem = Instantiate(invntoryItemPrefab, slot.transform);
