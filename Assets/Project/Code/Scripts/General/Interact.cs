@@ -1,13 +1,17 @@
 using UnityEngine;
-
 public class Interact : MonoBehaviour
 {
     public GameObject InventoryUI;
     public GameObject SecondaryUI;
     public GameObject Panel;
-
+    public Animator anim;
     private bool activated = false;
     private bool playerInRange = false;
+
+    private void Awake()
+    {
+
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +19,8 @@ public class Interact : MonoBehaviour
         {
             Debug.Log("Player is in range to interact with the object.");
             playerInRange = true;
+            anim.SetBool("canUse", true);
+
         }
     }
 
@@ -23,6 +29,8 @@ public class Interact : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = false;
+            anim.SetBool("canUse", false);
+
         }
     }
 

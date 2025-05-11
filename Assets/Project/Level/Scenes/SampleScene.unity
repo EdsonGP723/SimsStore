@@ -7715,6 +7715,7 @@ MonoBehaviour:
   InventoryUI: {fileID: 1766913127}
   SecondaryUI: {fileID: 391801336}
   Panel: {fileID: 135036291}
+  anim: {fileID: 1440417742}
 --- !u!1 &1265372848
 GameObject:
   m_ObjectHideFlags: 0
@@ -8752,7 +8753,7 @@ GameObject:
   - component: {fileID: 1440417743}
   - component: {fileID: 1440417742}
   m_Layer: 0
-  m_Name: Arrow (1)
+  m_Name: Signal Closet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9099,7 +9100,7 @@ GameObject:
   - component: {fileID: 1486287790}
   - component: {fileID: 1486287789}
   m_Layer: 0
-  m_Name: Arrow
+  m_Name: ' Signal NPC'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9191,7 +9192,7 @@ Transform:
   m_GameObject: {fileID: 1486287788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9868842, y: -0.113, z: 0}
+  m_LocalPosition: {x: -1.986884, y: -0.113, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11139,6 +11140,7 @@ MonoBehaviour:
   InventoryUI: {fileID: 1766913127}
   SecondaryUI: {fileID: 1849397283}
   Panel: {fileID: 135036291}
+  anim: {fileID: 1486287789}
 --- !u!224 &1798970327 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6612181454965639078, guid: 56ced5580232ea74ebc0cb3f3f669f7e, type: 3}
