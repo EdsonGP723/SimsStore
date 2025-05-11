@@ -2,15 +2,38 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject InventoryUI;
+    public GameObject SecondaryUI;
+    public GameObject Panel;
+
+    private bool activated = false;
+    private bool playerInRange = false;
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("Player is in range to interact with the object.");
+            playerInRange = true;
+        }
     }
 
-    // Update is called once per frame
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            playerInRange = false;
+        }
+    }
+
     void Update()
     {
-        
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+            activated = !activated;
+            InventoryUI.SetActive(activated);
+            SecondaryUI.SetActive(activated);
+            Panel.SetActive(activated);
+        }
     }
 }
